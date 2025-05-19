@@ -1,0 +1,9 @@
+#!/bin/bash
+
+## Start Basic
+pipewire && pipewire-pulse &
+
+## Run Wallpaper
+swaybg -i Photos/wallpaper1.jpg >/dev/null 2>&1 &
+
+waybar >/dev/null 2>&1 &

@@ -1,0 +1,72 @@
+<openbox_menu>
+	<menu id="root-menu" label="">
+		<menu id="web" label="Web">
+
+			<menu id="firefox" label="Firefox">
+				<item label="Open">
+					<action name="Execute" command="firefox www.duckduckgo.com" />
+				</item>
+
+				<item label="Private Window">
+					<action name="Execute" command="firefox -private-window" />
+				</item>
+			</menu>
+
+		</menu>
+
+		<menu id="libreoffice" label="Libre Office">
+
+			<item label="Base">
+				<action name="Execute" command="libreoffice --base" />
+			</item>
+
+			<item label="Calc">
+				<action name="Execute" command="libreoffice --calc" />
+			</item>
+
+			<item label="Draw">
+				<action name="Execute" command="libreoffice --draw" />
+			</item>
+
+			<item label="Impress">
+				<action name="Execute" command="libreoffice --impress" />
+			</item>
+
+			<item label="Math">
+				<action name="Execute" command="libreoffice --math" />
+			</item>
+
+			<item label="Writer">
+				<action name="Execute" command="libreoffice --writer" />
+			</item>
+		</menu>
+
+		<menu id="games" label="Games">
+
+			<item label="Armagetron Advanced">
+				<action name="" command="/.Appimage/ArmagetronAdvanced.AppImage" />
+			</item>
+		</menu>
+
+		<menu id="utilities" label="Utilities">
+			<item label="Terminal">
+				<action name="Execute" command="alacritty" />
+			</item>
+
+			<item label="Text Editor">
+				<action name="Execute" command="mousepad" />
+			</item>
+
+			<item label="File Manager">
+				<action name="Execute" command="thunar" />
+			</item>
+
+			<item label="NetworkManager">
+				<action name="Execute" command="alacritty -e nmtui" />
+			</item>
+		</menu>
+		
+		<item label="Reconfigure"><action name="Reconfigure"/></item>
+		<item label="Logout"><action name="Exit"/></item>
+	</menu>
+</openbox_menu>
