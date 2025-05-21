@@ -1,0 +1,59 @@
+* {
+	color: white;
+	font-family: "Roboto", "Font Awesome 5 Free";
+	font-weight: bold;
+	min-height: 30px;
+}
+
+window#waybar {
+	background: #008b8b;
+	border-bottom: 3px solid #87ceeb;
+}
+
+#taskbar {
+	background-color: #5f9ea0;
+	border-bottom: 3px solid #87ceeb;
+	border-radius: 0%;
+}
+
+#taskbar button.minimized {
+	background-color: green;
+	border-radius: 0%;
+}
+
+#taskbar button.active {
+	background-color: #20b2aa;
+	border-radius: 0%;
+}
+
+#taskbar button:hover {
+	background: #00ff8f;
+	background-color: #00ff8f;
+	color: #ff0080;
+	border-radius: 0%;
+}
+
+#network.wifi {
+	background: #5f9ea0;
+	border-bottom: 3px solid #87ceeb;
+	border-left: 3px solid #87ceeb;
+	padding-left: 1em;
+	padding-right: 1em;
+}
+
+#network.ethernet {
+	border-bottom: 3px solid #87ceeb;
+	padding-left: 1em;
+	padding-right: 1em;
+}
+
+#network.disconnected {
+	border-bottom: 3px solid #87ceeb;
+	padding-left: 1em;
+	padding-right: 1em;
+}
+
+#network:hover {
+	background: #00ff8f;
+	color: #ff0080;
+}
